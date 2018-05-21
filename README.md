@@ -3,13 +3,9 @@ A spark streaming sample running in HDInsight spark 2.2 to pull data from eventh
 
 ###### 1. Prepare Environment
 - Install SBT 1.1.5 (https://www.scala-sbt.org/download.html)
-
 	- Windows
-	
 		Download MSI file and install directly
-		
 	- Linux
-	
 		wget https://piccolo.link/sbt-1.1.5.tgz
 		
 		tar xzvf sbt-1.1.5.tgz
