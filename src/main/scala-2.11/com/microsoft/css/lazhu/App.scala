@@ -11,7 +11,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object App {
 
   def main(args: Array[String]): Unit = {
-    val connectionStr = "Endpoint=sb://lazhueventhub-ns1.servicebus.windows.net/;SharedAccessKeyName=lazhusap;SharedAccessKey=kz6/5vB8J4k2e9Lej0kfq1JIE2468g+DddFVBkxtbdc=;EntityPath=lazhueventhub"
+    val connectionStr = "<eventhub connection string>"
     val conf = EventHubsConf(connectionStr)
       .setStartingPosition(EventPosition.fromEndOfStream)
       .setMaxRatePerPartition(10000)
